@@ -191,3 +191,53 @@ span {
   color: #FFFFFF;
   text-decoration: none;
 }
+.food-1, .food-2, .food-3 {
+  width: 354px;
+  height: 350px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 5%;
+  text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+.food-1, .food-2, .food-3 p {
+  color: #ffffff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 40px;
+  margin: 0px;
+  padding: 0px;
+}
+.name p:nth-child(1) {
+  font-weight: bold;
+  font-size: 40px;
+}
+.name p:nth-child(2) {
+  font-weight: 400;
+  font-size: 30px;
+}
+.food-1 {
+  background-image: url(../images/BBQ-Meatlovers.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.food-2 {
+  background-image: url(../images/Ham-and-Pineapple.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.food-3 {
+  background-image: url(../images/Sausage-and-kale-pizza.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.price button {
+  color: #FFFFFF;
+  border: none;
+  background-color: #ea272d;
+  outline: none;
+  width: 70px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  height: 35px;
+}
