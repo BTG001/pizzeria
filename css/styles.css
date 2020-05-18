@@ -52,4 +52,58 @@ a {
 .cart a {
   color: #FFFFFF;
   font-weight: bold;
+  margin: 0px 10px;
+}
+.cart {
+  display: flex;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+.whats-new {
+  display: flex;
+  justify-content: center;
+  margin: 7%; 0px 20px 0px;
+}
+.new {
+  padding: 40px;
+  width: 540px;
+  height: 320px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../images/pizza-bg3.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.new p {
+  color: #FFFFFF;
+  line-height: 50px;
+  padding: 0px;
+  margin: 0px;
+}
+.new p:nth-child(1) {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.new p:nth-child(2) {
+  font-size: 30px;
+  font-family: serif;
+}
+.new button {
+  width: 130px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #ea272d;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  font-weight: 400;
+  color: #FFFFFF;
+  font-size: 16px;
 }
