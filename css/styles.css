@@ -46,3 +46,10 @@ a {
   font-weight: bold;
   color: #FFFFFF;
 }
+.cart img {
+  height: 10vh;
+}
+.cart a {
+  color: #FFFFFF;
+  font-weight: bold;
+}
