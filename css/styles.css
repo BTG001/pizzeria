@@ -241,3 +241,43 @@ span {
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
   height: 35px;
 }
+button:active {
+  transform: scale(1.2);
+  transition: all ease 0.5s;
+}
+.flavor, .breakfast {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0px;
+  width: 540px;
+  height: 180px;
+  margin: 10px;
+  background-color: #b1b1b1;
+}
+.flavor {
+  background-image: url(../images/crust.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.breakfast {
+  background-image: url(../images/stuffed.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.flavor p:nth-child(1), .breakfast p:nth-child(1) {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 40px;
+}
+.flavor p:nth-child(2), .breakfast p:nth-child(2) {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+.flavor p, .breakfast p {
+  margin: 0px;
+  padding: 0px;
+  line-height: 40px;
+}
